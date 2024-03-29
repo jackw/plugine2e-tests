@@ -1,0 +1,10 @@
+apiVersion: 1
+
+datasources:
+  - name: 'plugine2e'
+    type: 'pnpm-plugine2e-datasource'
+    access: proxy
+    isDefault: false
+    orgId: 1
+    version: 1
+    editable: true
