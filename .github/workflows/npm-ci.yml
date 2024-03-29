@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+          cache-dependency-path: './npm-plugine2e-datasource/package-lock.json'
 
       - name: Install dependencies
         run: npm ci

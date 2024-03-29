@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'yarn'
+          cache-dependency-path: './yarn-plugine2e-datasource/yarn.lock'
 
       - name: Install dependencies
         run: yarn install --immutable --prefer-offline
