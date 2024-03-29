@@ -1,4 +1,4 @@
-name: CI
+name: PNPM CI
 
 on:
   push:
