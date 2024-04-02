@@ -81,7 +81,7 @@ jobs:
 
       - name: Install Playwright Browsers
         if: steps.check-for-e2e.outputs.has-e2e == 'true'
-        run: npx playwright install --with-deps
+        run: npm exec playwright install --with-deps
 
       - name: Start grafana docker
         if: steps.check-for-e2e.outputs.has-e2e == 'true'
